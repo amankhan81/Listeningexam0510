@@ -2,65 +2,34 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-<<<<<<< HEAD
-      case "6XDSB2DrLlb":
+      case "5oYTarnlKNH":
         Script1();
         break;
-      case "6AQJ93CNAsb":
+      case "6ezkosFSOnT":
         Script2();
         break;
-      case "6E7s4PpB5xy":
+      case "5xqQawenwKo":
         Script3();
         break;
-      case "5WVhFiHC50s":
+      case "6f19haT0dxm":
         Script4();
         break;
-      case "5sNi6pc1AXU":
+      case "5fb0RIoVuck":
         Script5();
         break;
-      case "6OWqv5klZQb":
+      case "6GLEcgSxu4b":
         Script6();
         break;
-      case "5w1FgyCHlhJ":
+      case "5lwWwgdahUh":
         Script7();
         break;
-      case "5rNJ48WlVLW":
+      case "6eCxEmmyXjn":
         Script8();
         break;
-      case "6QdYRUEr4M1":
+      case "5xvNtC4QsNh":
         Script9();
         break;
-      case "5tCRfuHRsUm":
-=======
-      case "6PLBKgICtyD":
-        Script1();
-        break;
-      case "6RL8Chfrx17":
-        Script2();
-        break;
-      case "63Vra4M0Ua1":
-        Script3();
-        break;
-      case "5w5JZ1UjgtA":
-        Script4();
-        break;
-      case "6Kni4rVgSG1":
-        Script5();
-        break;
-      case "67ZWjaKmsE7":
-        Script6();
-        break;
-      case "5h1zyTsMzvi":
-        Script7();
-        break;
-      case "6OEos4LctSQ":
-        Script8();
-        break;
-      case "6506sTyvuPp":
-        Script9();
-        break;
-      case "6CIAVgMULgN":
->>>>>>> f00c0da30571298c5acc7997435e7e51c48bb39c
+      case "6RGSLVj2xB3":
         Script10();
         break;
   }
