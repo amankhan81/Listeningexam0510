@@ -2,6 +2,7 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
+<<<<<<< HEAD
       case "6XDSB2DrLlb":
         Script1();
         break;
@@ -30,6 +31,36 @@ function ExecuteScript(strId)
         Script9();
         break;
       case "5tCRfuHRsUm":
+=======
+      case "6PLBKgICtyD":
+        Script1();
+        break;
+      case "6RL8Chfrx17":
+        Script2();
+        break;
+      case "63Vra4M0Ua1":
+        Script3();
+        break;
+      case "5w5JZ1UjgtA":
+        Script4();
+        break;
+      case "6Kni4rVgSG1":
+        Script5();
+        break;
+      case "67ZWjaKmsE7":
+        Script6();
+        break;
+      case "5h1zyTsMzvi":
+        Script7();
+        break;
+      case "6OEos4LctSQ":
+        Script8();
+        break;
+      case "6506sTyvuPp":
+        Script9();
+        break;
+      case "6CIAVgMULgN":
+>>>>>>> f00c0da30571298c5acc7997435e7e51c48bb39c
         Script10();
         break;
   }
