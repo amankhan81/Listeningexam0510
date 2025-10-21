@@ -2,32 +2,35 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "64KzHr3Pilb":
+      case "6XDSB2DrLlb":
         Script1();
         break;
-      case "63eY2f30xHP":
+      case "6AQJ93CNAsb":
         Script2();
         break;
-      case "6O4DbJFmvg0":
+      case "6E7s4PpB5xy":
         Script3();
         break;
-      case "5jFvDytY8vE":
+      case "5WVhFiHC50s":
         Script4();
         break;
-      case "5faa0O2cXB9":
+      case "5sNi6pc1AXU":
         Script5();
         break;
-      case "6k4lQIhKSwA":
+      case "6OWqv5klZQb":
         Script6();
         break;
-      case "60GtGETPvJS":
+      case "5w1FgyCHlhJ":
         Script7();
         break;
-      case "5mFy6JYqqL6":
+      case "5rNJ48WlVLW":
         Script8();
         break;
-      case "63C9tDW4t0y":
+      case "6QdYRUEr4M1":
         Script9();
+        break;
+      case "5tCRfuHRsUm":
+        Script10();
         break;
   }
 }
@@ -297,6 +300,39 @@ closeFullscreen();
 }
 
 function Script9()
+{
+  var elem = document.documentElement;
+
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.webkitExitFullscreen) { /* Safari */
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) { /* IE11 */
+    document.msExitFullscreen();
+  }
+}
+
+
+
+if(document.fullscreenElement == null){
+openFullscreen();
+}else{
+closeFullscreen();
+};
+}
+
+function Script10()
 {
   var elem = document.documentElement;
 
